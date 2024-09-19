@@ -25,46 +25,46 @@ feature type, and the start and end positions. This parsing is coupled with an a
 and inserts the node into a BST by a specified measure.
 
 This program implements a self-balancing binary search tree, or AVL tree. This ensures that no matter what order the segments are inserted into 
-the tree or what sorting measure the user selects, the end result will be a relatively balanced tree, allowing for very efficient range queries.
+the tree or what sorting measure the user selects, the end result will be a relatively balanced tree, allowing for optimized range query efficiency.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Current Limitations and Future Implementation Plans
 
 Input file
-  Current Limitations:     only accepts .gb files(GenBank) for sequence data because of its annotation format(labels and feature types)
-  Future Implementations:  will explore different sequence data file types that contain similar details
+Current Limitations:     only accepts .gb files(GenBank) for sequence data because of its annotation format(labels and feature types)
+Future Implementations:  accept various file types that contain similar or more details
 
 Sorting
-  Current Limitations:     only sorts labeled segments by order of appearance
-  Future Implementations:  planning to implement sorting by segment length, nucleotide/amino acid composition, pattern frequency..
-                           other measures that would make performing range queries useful for researchers                        
+Current Limitations:     only sorts labeled segments by order of appearance
+Future Implementations:  planning to implement sorting by segment length, nucleotide/amino acid composition, pattern frequency..
+                         other measures that would make performing range queries useful for researchers                        
 
 Filtering
-  Current Limitations:     only filters out segments by start positions
-  Future Implementations:  filter out by segment labels, feature types, positional ranges..
+Current Limitations:     only filters out segments by start positions
+Future Implementations:  filter out by segment labels, feature types, positional ranges..
 
 Range Query
-  Current Limitations:     only accepts start positions as upper and lower bounds
-  Future Implementations:  accept segment labels or any sequence positions as upper and lower bounds
+Current Limitations:     only accepts start positions as upper and lower bounds
+Future Implementations:  accept segment labels or any sequence positions as upper and lower bounds
 
 User Interface
-  Current Limitations:     not much flexibility with input types for commands
-  Future Implementations:  option to export filtered data or range query results to output text file
-                           improve error handling
-                           analyze individual segments for % composition or other relevant details
+Current Limitations:     not much flexibility with input types for commands
+Future Implementations:  option to export filtered data or range query results to output text file
+                         improve error handling
+                         analyze individual segments for % composition or other relevant details
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
 # How to Use
 
 Required Files:
-  sequenceAVLTree.c - Contains logic for AVL tree and range query operations.
-  filterSequence.c - Contains logic for filtering segments.
-  sequenceAVLTree.h - Header file containing data structure definitions and function declarations.
-  parse_genbank.py - A python script that parses GenBank files and creates a csv file with details for the C program to use.
-  Makefile - Used to compile the C source files.
-  .gb file - The input genomic sequence data.
+sequenceAVLTree.c - Contains logic for AVL tree and range query operations.
+filterSequence.c - Contains logic for filtering segments.
+sequenceAVLTree.h - Header file containing data structure definitions and function declarations.
+parse_genbank.py - A python script that parses GenBank files and creates a csv file with details for the C program to use.
+Makefile - Used to compile the C source files.
+.gb file - The input genomic sequence data.
   
 Instructions:
 
