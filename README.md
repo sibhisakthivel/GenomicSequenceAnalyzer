@@ -29,40 +29,6 @@ the tree or what sorting measure the user selects, the end result will be a rela
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Current Limitations and Future Implementation Plans
-
-Input file
-
-Current Limitations:     only accepts .gb files(GenBank) for sequence data because of its annotation format(labels and feature types)
-
-Future Implementations:  accept various file types that contain similar or more details
-
-Sorting
-
-Current Limitations:     only sorts labeled segments by order of appearance
-
-Future Implementations:  planning to implement sorting by segment length, nucleotide/amino acid composition, pattern frequency..
-
-Filtering
-
-Current Limitations:     only filters out segments by start positions
-
-Future Implementations:  filter out by segment labels, feature types, positional ranges..
-
-Range Query
-
-Current Limitations:     only accepts start positions as upper and lower bounds
-
-Future Implementations:  accept segment labels or any sequence positions as upper and lower bounds
-
-User Interface
-
-Current Limitations:     not much flexibility with input types for commands
-
-Future Implementations:  option to export filtered data or range query results to output text file
-
----------------------------------------------------------------------------------------------------------------------------------------------------
-
 # How to Use
 
 Required Files:
@@ -88,3 +54,45 @@ Instructions:
   - to start the program, run './sequenceAVLTree mySequence.gb' on the commmand line, replacing 'mySequence' with the name of your .gb file
 
   - Select a command from the list to start analyzing your sequence
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Current Limitations and Future Implementation Plans
+
+Input file
+
+Current Limitations:     only accepts .gb files(GenBank) for sequence data because of its annotation format(labels and feature types)
+
+Future Implementations:  accept various file types that contain similar or more details
+
+Sorting
+
+Current Limitations:     only sorts labeled segments by order of appearance
+
+Future Implementations:  planning to implement sorting by segment length, nucleotide/amino acid composition, pattern frequency..
+
+Duplicate Segments
+
+Current Limitations:     duplicate segments with different feature types excluded from trees but included in the main sequence hash
+
+Future Implementations:  avl trees will store all feature types of a unique segment, not just the first appearance
+
+Filtering
+
+Current Limitations:     only filters out segments by start positions
+
+Future Implementations:  filter out by segment labels, feature types, positional ranges..
+
+Range Query
+
+Current Limitations:     only accepts start positions as upper and lower bounds
+
+Future Implementations:  accept segment labels or any sequence positions as upper and lower bounds
+
+User Interface
+
+Current Limitations:     not much flexibility with input types for commands
+
+Future Implementations:  option to export filtered data or range query results to output text file
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
