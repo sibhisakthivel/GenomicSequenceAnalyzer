@@ -47,6 +47,10 @@ Makefile - Used to compile the C source files.
   
 Instructions:
 
+  - download all required files listed above
+      - select a .gb file from the provided input folder or
+      - download a .gb file of interest from GenBank
+
   - install Biopthon (for parse_genbank.py)
       - try 'pip install biopython' or 'pip3 install biopython' on your command line
    
