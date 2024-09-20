@@ -1,0 +1,236 @@
+LOCUS       STRLACOP                5140 bp    DNA     linear   BCT 15-FEB-1994
+DEFINITION  Streptococcus mutans lac operon.
+ACCESSION   M80797
+VERSION     M80797.1
+KEYWORDS    enzyme III; galactose 6-P isomerase LacA subunit; galactose 6-P
+            isomerase LacB subunit; galactosidase acetyltransferase; lac
+            operon; lacA gene; lacB gene; lacC gene; lacD gene; lacE gene; lacF
+            gene; lactose repressor; repressor; tagatose 1,6-aldolase; tagatose
+            6-P kinase; tagatose 6-phosphate isomerase.
+SOURCE      Streptococcus mutans
+  ORGANISM  Streptococcus mutans
+            Bacteria; Bacillota; Bacilli; Lactobacillales; Streptococcaceae;
+            Streptococcus.
+REFERENCE   1  (bases 1 to 5140)
+  AUTHORS   Rosey,E.L. and Stewart,G.C.
+  TITLE     Nucleotide and deduced amino acid sequences of the lacR, lacABCD,
+            and lacFE genes encoding the repressor, tagatose 6-phosphate gene
+            cluster, and sugar-specific phosphotransferase system components of
+            the lactose operon of Streptococcus mutans
+  JOURNAL   J. Bacteriol. 174 (19), 6159-6170 (1992)
+   PUBMED   1400164
+FEATURES             Location/Qualifiers
+     source          1..5140
+                     /organism="Streptococcus mutans"
+                     /mol_type="genomic DNA"
+                     /strain="PS14"
+                     /db_xref="taxon:1309"
+     gene            409..1227
+                     /gene="lacR"
+     regulatory      409..414
+                     /regulatory_class="minus_35_signal"
+                     /gene="lacR"
+     regulatory      434..439
+                     /regulatory_class="minus_10_signal"
+                     /gene="lacR"
+     regulatory      457..468
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="lacR"
+     CDS             472..1227
+                     /gene="lacR"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="lactose repressor"
+                     /protein_id="AAA26903.1"
+                     /translation="MKKEERLEEITKLINKRGTIRVTEVVERLKVSDMTVRRDLTELE
+                     GLGVLTRIHGGARSNNIFQYKEMSHEEKHSRQIEEKHYIAQKAAELVEEGDTIFLGPG
+                     TTVELLAEEINKTTLQVITNCLPVFQILSQKQSETFRVHLLGGEMRSITQSFIGEITN
+                     IVLEKMHFSKMFFSGNGVKGNEVMTSSFQEAYTQKMALGRAIEKYFLIDSSKIGKEDF
+                     TSFYQLSQLTALITDCQDDDKLQKLSKYTEIIN"
+     gene            1445..1962
+                     /gene="lacA"
+     regulatory      1445..1450
+                     /regulatory_class="minus_35_signal"
+                     /gene="lacA"
+     regulatory      1470..1475
+                     /regulatory_class="minus_10_signal"
+                     /gene="lacA"
+     regulatory      1521..1526
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="lacA"
+     CDS             1534..1962
+                     /gene="lacA"
+                     /EC_number="2.3.1.18"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="galactosidase acetyltransferase"
+                     /protein_id="AAA26904.1"
+                     /translation="MAIIIGSDAAGKRLKDVIKTFLKDNNHEVLDVTERKDLDFVDST
+                     LAVVHEVQKNDKNLGIAIDAYGAGSFMVATKVKGMIAAEVSDERSAYMTRGHNNARII
+                     TLGAEIVGDELAKNIVKDFVEAKYDGGRHQIRVDMLNKMC"
+     gene            1971..2503
+                     /gene="lacB"
+     regulatory      1971..1980
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="lacB"
+     CDS             1988..2503
+                     /gene="lacB"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="galactose 6-P isomerase"
+                     /protein_id="AAA26905.1"
+                     /translation="MKIAIGCDHIWTDVKMELSKHIKEEGYEVLDVGTYDFTRTHYPI
+                     FGKKVGEAVSSGEADLGVCMCGTGVGISNAANKVPGVRTALVRDMTSALYSKEELNAN
+                     VVSFGGAIIGKLLLFDIVDAFIKAQYKPTEENKKLIAKIKHLEAHNDKQADPHFFDEF
+                     LEKWNRGDYHD"
+     gene            2503..3454
+                     /gene="lacC"
+     regulatory      2503..2511
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="lacC"
+     CDS             2522..3454
+                     /gene="lacC"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tagatose 6-P kinase"
+                     /protein_id="AAA26906.1"
+                     /translation="MMLTVTMNPSIDIAYQLDDLKVDTVNRVIETHKTPGGKGLNVTR
+                     VLSQLGDDVLASGLLGGKLGEFLEAELDKSAIKHSFYKISAETRNCIAILHGGYQTEI
+                     LEQGPYVSAKESKGFLEFFEKLLPKLEVVAISGSLPKGVPVDYYSQMIAICKQHQVPI
+                     VLDCSGQALLEVLNGAAKPTVIKPNTEELSQIMEREITNDVAVLKHALASPIFSGIDW
+                     IIVSLGSQGAFAKHGQTFYKVTIPKIAVVNPVGSGDSTVAGITSALAAGASDEKLLKK
+                     ANTLGMLNAQEKLTGHVNLENYDNLYQQIEVAEV"
+     gene            3445..4436
+                     /gene="lacD"
+     regulatory      3445..3450
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="lacC"
+     CDS             3459..4436
+                     /gene="lacD"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tagatose 1,6-aldolase"
+                     /protein_id="AAA26907.1"
+                     /translation="MTLTQEKRSYMEKLSDENGIISALAFDQRGALKRLMAQYQTQEP
+                     TIAQMEELKVLVAEELTPYASSMLLDPEYGLPAAKHLDKNAGLLLAYEKTGYDTTSTK
+                     RLPDCLVEWSAKRLKKQGADAVKFLLYYDVDGDEEVNQQKQAYIERIGSECKAEDIPF
+                     FLEILAYDETITDAASVEYAKVKPHKVLDAMKVFSDERFGIDVLKVEVPVNMKYVEGF
+                     GDGPIVHTQDQAANFFKQQDQATPLPYIYLSAGVSAKLFQDTLVFAKESGANFNGVLC
+                     GRATWAGSVKDYIEKGEAAARQWLRTEGFKNIDELNKVLKATATSWEER"
+     gene            4435..4766
+                     /gene="lacF"
+     regulatory      4435..4444
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="lacF"
+     CDS             4452..4766
+                     /gene="lacF"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="enzyme III"
+                     /protein_id="AAA26908.1"
+                     /translation="MNREEATLLGFEIVAYAGDARSKLLEALNAAQAGEYDRAEELVA
+                     AADDCIVDAHKAQTSLLAKEAQGDDIELSVTLMHGQDHLMTTILLKDLMKHLIELYKR
+                     GS"
+     gene            4756..5140
+                     /gene="lacE"
+     regulatory      4756..4762
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="lacF"
+     CDS             4773..>5140
+                     /gene="lacE"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="enzyme III"
+                     /protein_id="AAA26909.1"
+                     /translation="MNTLIAQIEKGKPFFEKISRNIYLRAIRDGFISAMPVILFSSIF
+                     LLIAYVPNIFGFTWPKGIENMLMTPYNYTMGIIGFLVAGTTAKSLTDSMNRQLEKTNQ
+                     INFISTMLASMAGFLIMAADP"
+ORIGIN      
+        1 ggatcctgca agcggagaag actatgtcgt gcgggggatt attgacggtt acattctttt
+       61 tgataatcgg attgtcctct ttgattataa aacagataaa ttcactaata gtcaagctat
+      121 taaagagcgt taccgaggtc agatgacact ttatgctcaa gctttgagcc aatcctataa
+      181 tatccaacaa gtagacagtt atttaattct attaggcggt gaaaaattag aagttgtgga
+      241 aatttaatag caaacatatt ccaaaaaaga gtagtctaat gaaaagaacc acttataatg
+      301 gacagtataa aaaagttatg cactgttttt ataaggaggt tcttttcata aatactcttt
+      361 tttatttatg aaaagaactg ttatttaaac gtaatgtttg ttttatgttt gaatatcgaa
+      421 aaaaatttaa aaatattata taatagaaga aaagaaggaa aagaggtatt tatgaagaag
+      481 gaagaacgat tagaagaaat cacaaaactc attaataagc gagggaccat tcgggttact
+      541 gaagttgtgg aacgattaaa ggtatcagac atgactgtcc gtcgcgattt aactgaattg
+      601 gaaggcttgg gagtattaac acgtattcac ggtggggcta gaagcaataa tatttttcaa
+      661 tataaagaaa tgtcccatga agaaaagcat tctcgacaaa tagaagaaaa gcactatatt
+      721 gcacaaaagg ctgccgaatt agtagaagaa ggagatacga tctttttagg accaggaaca
+      781 actgtagaac tgctggctga agaaattaat aagacaactt tgcaagtcat caccaattgt
+      841 cttcctgttt ttcagatctt atcgcaaaaa caatcagaga cgtttagagt ccatttattg
+      901 ggcggcgaaa tgagaagtat cactcagtct tttattggag aaataacaaa tatcgtttta
+      961 gaaaaaatgc atttttctaa aatgtttttc agcggcaatg gtgtcaaagg aaatgaagtg
+     1021 atgacatcaa gtttccaaga agcttatact cagaagatgg ctttaggaag ggcaattgaa
+     1081 aaatatttcc tgattgactc ttcaaagatt ggaaaagaag attttacgtc attttatcag
+     1141 ctatcacaat tgacagctct gattacagat tgtcaagatg acgataagct tcaaaaactg
+     1201 agcaaatata ctgagattat taactaaatc gttagataac aaaaagtgat cagaaaaata
+     1261 agataatcaa agagagcgag agaagacctt caagattgtt tagcaatcat agcggtctga
+     1321 ctcggactct tatgtttttg cgtaaaaaca ctcaaacttc aaacaaaaat tatattttat
+     1381 caacagaaaa aggaaatatt ttttaaataa taccaaaaat gtttaaaaaa taaacaaaaa
+     1441 tgtgttgatt ttttaaacaa gttatagtgt attataacta aagaaaaacg aaaacgcttt
+     1501 tctgactaaa aaatcatttc aaggagaatg actatggcaa ttattattgg ttcagatgca
+     1561 gctggtaaaa gacttaaaga tgttattaaa acatttttaa aagacaacaa tcatgaagtt
+     1621 ttagatgtta ctgaaaggaa agatttggat tttgtagatt caactttagc agttgtacat
+     1681 gaagtacaaa aaaatgataa aaatttgggg attgcaattg atgcctatgg tgcgggcagc
+     1741 tttatggtag ctactaaagt caaaggtatg attgcagcag aagtgtctga tgaacgttca
+     1801 gcttatatga cacgcggcca taataatgcg cgtatcatta ctcttggtgc tgaaattgtt
+     1861 ggagatgaac tggccaaaaa tattgttaag gactttgtag aggctaaata tgacggcggc
+     1921 cgtcatcaga tccgtgtaga tatgctaaat aaaatgtgct aaagacaaat agagtgagga
+     1981 aatgaaaatg aaaattgcta ttggttgtga ccatatttgg actgatgtga aaatggaact
+     2041 atctaaacat ataaaagaag aaggttatga agttctagat gtagggacct atgactttac
+     2101 acgtacgcac tatcccatct ttggtaaaaa agtgggcgaa gcagttagca gtggtgaagc
+     2161 ggatttaggt gtatgtatgt gcggtactgg tgtgggtata agtaatgctg ccaataaagt
+     2221 accgggtgtt agaacggcat tagtaagaga tatgacttct gcactgtatt caaaagaaga
+     2281 acttaatgca aatgtcgtta gctttggcgg cgctattata ggtaagttgt tattatttga
+     2341 tattgtagat gcttttatta aagcccagta taaaccgaca gaagaaaata agaaattaat
+     2401 tgctaagatc aaacatttag aagcacataa cgataaacaa gcagatccgc atttctttga
+     2461 tgaatttcta gaaaagtgga atcgcggtga ctatcacgat tgagtaaggg gagttatcat
+     2521 tatgatgcta acagttacga tgaatccttc cattgatatt gcttatcagc tggatgactt
+     2581 aaaggttgat actgtcaatc gtgtcattga aacgcataaa acacccggag gaaaaggatt
+     2641 gaatgtgaca cgtgttctgt ctcagttagg agacgatgtc cttgctagcg gccttcttgg
+     2701 tgggaaactt ggtgaatttt tagaagcgga acttgataag tctgccataa agcattcttt
+     2761 ttataagatt tctgcagaga caagaaattg tattgctatt ttacatggtg gctatcaaac
+     2821 agaaatatta gaacaaggac cttatgtttc cgctaaagaa tctaaagggt ttcttgaatt
+     2881 ttttgaaaaa ttacttccaa aattagaagt tgtcgcaatt tcaggaagtc ttccaaaagg
+     2941 ggttcctgta gactattatt ctcaaatgat tgcgatttgc aagcaacatc aggttcctat
+     3001 tgttttggat tgttcaggtc aggctttgtt ggaagtgtta aacggtgcag ctaaaccaac
+     3061 tgtcatcaag cccaatacag aagaattatc tcaaattatg gaacgggaga ttacaaatga
+     3121 tgttgctgtt ttaaagcatg ctttggctag ccctatcttt tcaggaattg attggattat
+     3181 tgtctcactt ggttctcaag gtgcttttgc caagcatggt caaacatttt ataaggtcac
+     3241 tattcctaaa atagcagtcg ttaatccagt tggttcaggg gattcaacgg tagctggaat
+     3301 tacatcggct cttgctgcag gagcaagtga tgagaaattg ctcaaaaaag cgaatacact
+     3361 tggtatgctc aatgctcagg aaaaattaac tggacacgtt aacttagaaa attatgataa
+     3421 tttataccaa caaattgagg tagcggaggt ttaaaaagat gacattaaca caagaaaagc
+     3481 gcagttatat ggaaaaactt agtgatgaaa atggaattat ttcagcttta gcttttgacc
+     3541 agcgtggtgc tttaaaacgc ttgatggcgc agtatcaaac gcaagaacca acgattgctc
+     3601 aaatggaaga gctgaaggtc ttagtagcag aagaattaac accttatgct tcatccatgc
+     3661 tgcttgatcc agaatatggt cttccagcag caaaacattt ggataaaaat gcaggtttgc
+     3721 tccttgctta tgagaagact ggttatgata caacaagcac taaacgcttg ccagattgtc
+     3781 tggttgaatg gtcagccaaa cgtttgaaaa aacaaggtgc agatgctgtt aaattcttgc
+     3841 tctactatga tgttgatggt gatgaagaag ttaaccagca aaaacaggct tatattgaac
+     3901 gaattggttc tgaatgtaag gcagaagata ttcccttttt ccttgaaatt ctagcttatg
+     3961 acgaaaccat tactgatgcc gcaagcgttg agtatgctaa agtaaagcct cataaagtgc
+     4021 ttgatgctat gaaagtcttc tcagacgagc gttttggcat tgatgttctg aaggttgagg
+     4081 ttcctgttaa catgaagtat gtcgaaggtt ttggtgatgg cccaattgtt cacactcaag
+     4141 atcaagcagc aaacttcttt aaacaacaag atcaagcaac accgcttccc tatatttatt
+     4201 tgagtgcagg tgtttctgct aagttattcc aagatacgct tgtttttgca aaagagtcag
+     4261 gggctaattt taacggtgtc ctttgcggac gtgccacatg ggctggttca gttaaagatt
+     4321 atattgaaaa aggcgaagca gcagcccgcc agtggcttcg tacagaagga ttcaagaata
+     4381 ttgatgagct gaataaggtt ttaaaagcaa ccgcaacgtc ttgggaagaa agatagaaag
+     4441 gtggaaaaga gatgaacaga gaagaagcga ctcttttggg gtttgaaatt gtagcctatg
+     4501 caggagatgc acgttctaaa ttacttgaag ctttgaatgc ggcacaggcc ggtgagtacg
+     4561 atagggcaga agagcttgta gctgcggcag atgactgtat tgttgatgcc cataaagctc
+     4621 aaacaagcct tttggctaag gaagcacaag gcgatgatat tgaacttagt gttactttaa
+     4681 tgcacggaca agatcacctg atgacaacca tacttctaaa agatttgatg aaacatttaa
+     4741 ttgaattgta caaaagaggg agctaaaata atatgaacac attgattgct caaattgaaa
+     4801 agggaaagcc tttctttgaa aaaatttcgc gtaatattta tttacgtgct attcgtgacg
+     4861 ggtttatctc ggcaatgccg gtcatcctat tttcgagtat ttttctgttg atcgcttatg
+     4921 ttcctaatat ctttggtttt acttggccaa aaggtattga aaacatgttg atgacaccct
+     4981 ataactatac gatggggatt attggtttcc tagtggctgg tacaactgct aaatcactaa
+     5041 cggattcgat gaaccgccaa ttagaaaaga ccaaccagat taatttcatt tcaacaatgt
+     5101 tagcttctat ggccggtttc ttaatcatgg cagcggatcc
+//
+

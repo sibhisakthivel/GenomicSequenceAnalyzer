@@ -1,0 +1,119 @@
+LOCUS       pCRISPR        2707 bp DNA     circular SYN 05-JAN-2016
+DEFINITION  Plasmid for reconstituting the S. pyogenes CRISPR/Cas system in E. 
+            coli. Use together with pCas9.
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 2707)
+  AUTHORS   Jiang W, Bikard D, Cox D, Zhang F, Marraffini LA.
+  TITLE     RNA-guided editing of bacterial genomes using CRISPR-Cas systems.
+  JOURNAL   Nat. Biotechnol. 2013;31:233-9.
+  PUBMED    23360965
+REFERENCE   2  (bases 1 to 2707)
+  AUTHORS   Marraffini Lab / Addgene #42875
+  TITLE     Direct Submission
+  JOURNAL   Exported Sep 7, 2024 from SnapGene Viewer 7.2.0
+            https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; journalName: "Nat. 
+            Biotechnol."; date: "2013"; volume: "31"; pages: "233-9"
+COMMENT     Digest with BsaI and insert a spacer sequence to express a crRNA.
+COMMENT     Sequence Label: pCRISPR
+FEATURES             Location/Qualifiers
+     source          1..2707
+                     /lab_host="Escherichia coli"
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     CDS             212..1006
+                     /codon_start=1
+                     /gene="aph(3')-II (or nptII)"
+                     /product="aminoglycoside phosphotransferase from Tn5"
+                     /label=NeoR/KanR
+                     /note="confers resistance to neomycin, kanamycin, and G418 
+                     (Geneticin(R))"
+                     /translation="MIEQDGLHAGSPAAWVERLFGYDWAQQTIGCSDAAVFRLSAQGRP
+                     VLFVKTDLSGALNELQDEAARLSWLATTGVPCAAVLDVVTEAGRDWLLLGEVPGQDLLS
+                     SHLAPAEKVSIMADAMRRLHTLDPATCPFDHQAKHRIERARTRMEAGLVDQDDLDEEHQ
+                     GLAPAELFARLKARMPDGEDLVVTHGDACLPNIMVENGRFSGFIDCGRLGVADRYQDIA
+                     LATRDIAEELGGEWADRFLVLYGIAAPDSQRIAFYRLLDEFF"
+     terminator      1037..1131
+                     /label=lambda t0 terminator
+                     /note="transcription terminator from phage lambda"
+     rep_origin      1219..1807
+                     /direction=RIGHT
+                     /label=ori
+                     /note="high-copy-number ColE1/pMB1/pBR322/pUC origin of 
+                     replication"
+     misc_feature    2088..2219
+                     /label=crRNA leader
+                     /note="crRNA leader sequence for the Streptococcus pyogenes
+                     CRISPR/Cas system"
+     repeat_region   2220..2255
+                     /label=DR
+                     /note="direct repeat for the Streptococcus pyogenes 
+                     CRISPR/Cas system"
+     repeat_region   2286..2321
+                     /label=DR
+                     /note="direct repeat for the Streptococcus pyogenes 
+                     CRISPR/Cas system"
+     misc_feature    2362..2493
+                     /label=crRNA leader
+                     /note="crRNA leader sequence for the Streptococcus pyogenes
+                     CRISPR/Cas system"
+     repeat_region   2494..2529
+                     /label=DR
+                     /note="direct repeat for the Streptococcus pyogenes 
+                     CRISPR/Cas system"
+     repeat_region   2560..2595
+                     /label=DR
+                     /note="direct repeat for the Streptococcus pyogenes 
+                     CRISPR/Cas system"
+ORIGIN
+        1 gtgaagacga aagggcctcg tgatacgcct atttttatag gttaatgtca tgataataat
+       61 ggtttcttag acgtcggaat tgccagctgg ggcgccctct ggtaaggttg ggaagccctg
+      121 caaagtaaac tggatggctt tcttgccgcc aaggatctga tggcgcaggg gatcaagatc
+      181 tgatcaagag acaggatgag gatcgtttcg catgattgaa caagatggat tgcacgcagg
+      241 ttctccggcc gcttgggtgg agaggctatt cggctatgac tgggcacaac agacaatcgg
+      301 ctgctctgat gccgccgtgt tccggctgtc agcgcagggg cgcccggttc tttttgtcaa
+      361 gaccgacctg tccggtgccc tgaatgaact gcaggacgag gcagcgcggc tatcgtggct
+      421 ggccacgacg ggcgttcctt gcgcagctgt gctcgacgtt gtcactgaag cgggaaggga
+      481 ctggctgcta ttgggcgaag tgccggggca ggatctcctg tcatctcacc ttgctcctgc
+      541 cgagaaagta tccatcatgg ctgatgcaat gcggcggctg catacgcttg atccggctac
+      601 ctgcccattc gaccaccaag cgaaacatcg catcgagcga gcacgtactc ggatggaagc
+      661 cggtcttgtc gatcaggatg atctggacga agagcatcag gggctcgcgc cagccgaact
+      721 gttcgccagg ctcaaggcgc gcatgcccga cggcgaggat ctcgtcgtga cccatggcga
+      781 tgcctgcttg ccgaatatca tggtggaaaa tggccgcttt tctggattca tcgactgtgg
+      841 ccggctgggt gtggcggacc gctatcagga catagcgttg gctacccgtg atattgctga
+      901 agagcttggc ggcgaatggg ctgaccgctt cctcgtgctt tacggtatcg ccgctcccga
+      961 ttcgcagcgc atcgccttct atcgccttct tgacgagttc ttctgagcgg gactctgggg
+     1021 ttcgagagct cgcttggact cctgttgata gatccagtaa tgacctcaga actccatctg
+     1081 gatttgttca gaacgctcgg ttgccgccgg gcgtttttta ttggtgagaa tccaagcact
+     1141 agtcatgacc aaaatccctt aacgtgagtt ttcgttccac tgagcgtcag accccgtaga
+     1201 aaagatcaaa ggatcttctt gagatccttt ttttctgcgc gtaatctgct gcttgcaaac
+     1261 aaaaaaacca ccgctaccag cggtggtttg tttgccggat caagagctac caactctttt
+     1321 tccgaaggta actggcttca gcagagcgca gataccaaat actgtccttc tagtgtagcc
+     1381 gtagttaggc caccacttca agaactctgt agcaccgcct acatacctcg ctctgctaat
+     1441 cctgttacca gtggctgctg ccagtggcga taagtcgtgt cttaccgggt tggactcaag
+     1501 acgatagtta ccggataagg cgcagcggtc gggctgaacg gggggttcgt gcacacagcc
+     1561 cagcttggag cgaacgacct acaccgaact gagataccta cagcgtgagc attgagaaag
+     1621 cgccacgctt cccgaaggga gaaaggcgga caggtatccg gtaagcggca gggtcggaac
+     1681 aggagagcgc acgagggagc ttccaggggg aaacgcctgg tatctttata gtcctgtcgg
+     1741 gtttcgccac ctctgacttg agcgtcgatt tttgtgatgc tcgtcagggg ggcggagcct
+     1801 atggaaaaac gccagcaacg cggccttttt acggttcctg gccttttgct ggccttttgc
+     1861 tcacatgttc tttcctgcgt tatcccctga ttctgtggat aaccgtatta ccgcctttga
+     1921 gtgagctgat accgctcgcc gcagccgaac gccctaggtc tagggcggcg gatttgtcct
+     1981 actcaggaga gcgttcaccg acaaacaaca gataaaacga aaggcccagt ctttcgactg
+     2041 agcctttcgt tttatttgat gcctctagca cgcgtaccat gggatcctat ttcttaataa
+     2101 ctaaaaatat ggtataatac tcttaataaa tgcagtaata caggggcttt tcaagactga
+     2161 agtctagctg agacaaatag tgcgattacg aaatttttta gacaaaaata gtctacgagg
+     2221 ttttagagct atgctgtttt gaatggtccc aaaactgaga ccagtctcgg aagctcaaag
+     2281 gtctcgtttt agagctatgc tgttttgaat ggtcccaaaa cttcagcaca ctgagacttg
+     2341 ttgagttgaa ttcatggatc ctatttctta ataactaaaa atatggtata atactcttaa
+     2401 taaatgcagt aatacagggg cttttcaaga ctgaagtcta gctgagacaa atagtgcgat
+     2461 tacgaaattt tttagacaaa aatagtctac gaggttttag agctatgctg ttttgaatgg
+     2521 tcccaaaact gagaccagtc tcggaagctc aaaggtctcg ttttagagct atgctgtttt
+     2581 gaatggtccc aaaacttcag cacactgaga cttgttgagt tgaattcggt cagtgcgtcc
+     2641 tgctgatgtg ctcagtatct ctatcactga tagggatgtc aatctctatc actgataggg
+     2701 actcgag
+//
