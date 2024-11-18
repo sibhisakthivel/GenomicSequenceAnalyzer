@@ -1,4 +1,4 @@
-# GenomicSequenceAnalyzer
+# GenomicSequenceAnalyzer - Comparative Genomics Tool
 
 This is a prototype version. Future updates will provide siginificantly more customization options for enhanced data analysis.
 
@@ -12,6 +12,8 @@ It is intended to highlight specific areas of interest within entire genomes by 
 
 Its main feature is sorting segments by a desired measure(ie. order of appearance) and then performing range queries on this sorted data.
 Its flexibility with sorting measures makes this useful for any researcher as they can adjust the sorting to accommodate for their research.
+
+Designed for comparative genomics, this tool empowers researchers to efficiently analyze sequence data by highlighting patterns and features, filtering out non-relevant regions, and enabling convenient exploration of genomic similarities and differences across datasets.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
